@@ -1,0 +1,105 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.name_area, .email_area, .pass_area {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.name_area label,
+.email_area label,
+.pass_area label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.name-input, .email_input, .pass_input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.name-input:focus,
+.email_input:focus,
+.pass_input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* User link */
+.user {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.user a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+/* Message */
+p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+p.alert {
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
